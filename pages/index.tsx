@@ -10,7 +10,7 @@ interface sendChat {
 }
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_KEY ?? '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',
+  apiKey: process.env.OPENAI_KEY ?? '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',
 });
 
 const openai = new OpenAIApi(configuration);
